@@ -7,9 +7,9 @@ char_count = {}
 
 for char in text:
     if char in char_count:
-        char_count[char] += 1  # Eğer harf zaten varsa sayıyı artır
+        char_count[char] += 1  # harf zaten varsa sayıyı artır
     else:
-        char_count[char] = 1  # Eğer harf yoksa 1 olarak ekle
+        char_count[char] = 1  # harf yoksa 1 olarak ekle
 
 print("Character frequencies:")
 for char in sorted(char_count):
